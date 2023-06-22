@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+.appTitle {
+  margin-right: auto; 
+  font-family:"Segoe UI", "Arial", "sans-serif";
+  color: white;
+  font-size: 27px;
+  text-decoration-line: none;
+
+}
+.appTitle:hover {
+  display: flex;
+  color:white;
+  background-color: transparent;
+  text-decoration: none;
+}
+.visiturl:hover {
+  color:white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.right-btns {
+  
+  display: flex;
+  background-color: #747474;
+  color:white;
+  text-decoration-line: none;
+  border-radius: 5px;
+  
+}
+.right-btns:hover {
+  color:white;
+  background-color: transparent;
+  text-decoration: none;
+}
+.tutorinfo{
+  display:none;
+  color:black;
+  position:absolute;
+  top:50px; 
+  left: 600px;
+  width:900px; 
+  background-color:white;
+  border:1px solid black;
+   padding:10px;
+}
